@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>COAPS API</title>
+<meta name="keywords" content="free website templates, CSS templates, download HTML page, templatemo.com">
+<meta name="description" content="templatemo 004 - free CSS website template">
+<link href="./COAPS API_files/templatemo_style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--
+This is a free CSS template provided by templatemo.com
+-->
+<div id="templatemo_container_wrapper">
+	<div class="templatemo_spacer"></div>
+<div id="templatemo_container">
+<div id="templatemo_top"> </div>
+  <div id="templatemo_header">
+      <div id="inner_header">
+        <div id="templatemo_site_title"><font size="7">M-COAPS API</font></div><br>
+          <div id="templatemo_site_slogan"><font size="5">A Generic Multi-PaaS API for Cloud Application Provisioning</font></div>
+      </div>
+  </div>
+  
+      <div id="templatemo_left_column">
+ 		<div class="text_area" align="justify">
+			<div class="title"></div>
+			<div class="section_box">
+				<font size="3">
+				<a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/#over">Overview</a> |
+				<a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/#op">Operations</a> |
+				<a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/#implem">Implementations</a> |
+				<a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/#case">Use case</a> |
+				<a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/#video">Video</a> 
+				</font>
+          </div>
+				<font size="3">
+				
+				
+				
+				
+				
+					<p> M-COAPS API enables component-based applications provisioning across several PaaS offerings. It is based on <a href="http://www-inf.int-evry.fr/SIMBAD/tools/COAPS1/"> COAPS API </a> that relies on our already defined <a href="http://www-inf.int-evry.fr/SIMBAD/tools/OCCI/"> OCCI description model </a>.</p>
+					<p> M-COAPS provides a concrete solution to struggle the existing lock-in in the PaaS market and enables developers to deploy and manage their applications' components easily and 
+seamlessly in heterogeneous multi-PaaS environment.</p>
+					<p> M-COAPS is as a step forward to achieve PaaS cooperation and federation. It also provides concrete perspective to enable cloud end-user applications portability.</p>
+				</font>
+				<br>
+			<div class="section_box2" align="justify">
+				<!-- Overview section -->
+				<div class="post_title" id="over"><font size="4">Overview</font></div>
+				<div class="text_area">
+					<img src="./COAPS API_files/architecture.png" width="360" height="250"><br>
+					<font size="3">
+						<p> M-COAPS implements a PaaS resources model description, that we have defined as part of our work, and exposes several generic interfaces that aggregates operating actions exposed by PaaS providers. </p>
+						<p> The PaaS resources managed by M-COAPS consists of <i><b>Applications</b></i> to deploy and their hosting <i><b>Environments</b></i>. </p>
+						<p> To provision PaaS resources, a Cloud consumer have only to develop its specific API implementation based on M-COAPS generic interfaces.</p>
+					</font>
+					<br>
+		        </div>
+				<!-- Operations section -->
+				<div class="post_title" id="op"><font size="4">Application and Environment management operations</font></div>
+				<div class="text_area">
+					<img src="./COAPS API_files/operations.jpg" width="500" height="430"><br>
+					<font size="3">
+						<p> M-COAPS provides a set of RESTful operations to manage <i><b>Applications</b></i> to deploy and their hosting <i><b>Environments</b></i> in the target PaaS.</p>
+						<p> Above an exhaustive list of operations provided by M-COAPS. </p>
+						<p> These operations are inherited from the former COAPS API. More informations can be found in the COAPS specifications document (V1.5.3). </p>
+					</font>
+					<br>
+		        </div>
+				<!-- implementations section -->
+				<div class="post_title" id="implem"><font size="3">Available implementations</font></div>
+				<div class="text_area">
+					<font size="3">
+						<p> All M-COAPS PaaS proxies implementations are open-source under Apache 2.0 license </p>
+						<p> Currently, we provide:
+							</p><ul>
+								<li>Generic management interface specifications document</li>
+								<li>An OpenShift PaaS API (OS-PaaS API)</li>
+								<li>An Amazon Elastic BeansTalk PaaS API (AWS-PaaS API)</li>
+								<li>A Cloud Foundry PaaS implementation (CF-PaaS API)</li>
+								<li>A CF-PaaS API user guide</li>
+								<li>A generic Web client</li>					
+							</ul>
+						<p></p>
+						<p> A COAPS GAE implementation was carried out by our Egyptian Easi-clouds partner from University of Cairo. For more information concerning this implementation, please send an email to: <a href="mailto:%20e.hossny@fci-cu.edu.eg">e_DOT_hossny_AT_fci-cu_DOT_edu_DOT_eg</a> </p>	
+						<p> A COAPS Appscale is under development by our Finnish Easi-clouds partner form University of Helsinki. For more information concerning this implementation, please send an email to: <a href="mailto:%20sami.saada@gmail.com">sami_DOT_saada_AT_gmail_DOT_com</a> </p>
+					</font>
+					<br>
+		        </div>
+				<!-- use cases section -->
+				<div class="post_title" id="case"><font size="4">Use case</font></div>
+				<br>
+				<div class="title"><font size="3">JEEE-based simulation application provisioning across Cloud Foundry and Amazon BeansTalk :</font></div>
+				<div class="text_area">
+					<img src="./COAPS API_files/usecase.png" width="500" height="200"><br>
+					<font size="3">
+						<p> To optimize cost, M-COAPS enables provisioning of the <i>simulator</i> component in Cloud Foundry and the <i>recorder</i> component in Amazon.</p>
+					</font>
+					<br>
+		        </div>
+				
+				<div class="title"><font size="3">The configuration templates management interface (Web clients):</font></div>
+				<div class="text_area">
+					<img src="./COAPS API_files/simulation.png" width="500" height="200"><br>
+					<font size="3">
+						<p> Through a graphic Web interfaces, the users define and/or edit a simulation configuration template.</p>
+						<p> The source code of this use case are available in right-side menu.</p>
+                        <p> A demonstration video is shown above.</p>		
+							
+					</font>
+					<br>
+		        </div>
+				
+				
+				<!-- video section -->
+				<div class="post_title"><font size="3">Demonstration video</font></div>
+				<div class="text_area" id="video">
+					<font size="3">
+						<center>
+							<iframe width="500" height="200" src="./COAPS API_files/6DgY6gUcM_I.html" frameborder="0" allowfullscreen=""></iframe>
+						</center>
+					</font>
+					<br>
+		        </div>
+			</div>             
+        </div>
+      </div>
+    
+    <div id="templatemo_right_column">
+           
+            <div class="section_box">
+			 <div class="subtitle">Documents and sources</div>
+			  <a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/docs/MCOAPS.zip">M-COAPS sources</a><br>
+              <a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/docs/COAPS-Spec.v1.5.3.pdf">COAPS specifications</a><br>
+              <a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/docs/GenericAPI.zip">COAPS sources</a><br>
+              <a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/docs/COAPS-1.5.3-UserGuide.pdf">COAPS user guide</a><br>
+              <a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/docs/COAPS-slides.pdf">COAPS slides</a><br>
+			  <a href="http://www-inf.it-sudparis.eu/SIMBAD/tools/COAPS/docs/COAPS-Cloud13.pdf">COAPS dissemination</a><br> 
+          </div>
+          <div class="section_box">
+            <div class="subtitle">Contributors</div>
+              
+			  <a href="http://www-inf.int-evry.fr/~ahmed_me/">Mehdi Ahmed Nacer</a><br>
+              Mohamed Mohamed <br>
+			  Mohamed Sellami <br>
+			  <a href="http://users.encs.concordia.ca/~s_yangui/">Sami Yangui</a><br>
+              <a href="http://www-inf.int-evry.fr/~tata/">Samir Tata</a><br>                           
+          </div>
+		  <div class="section_box" align="justify">
+            <div class="subtitle">Quick Contact</div>
+              Prof. Samir Tata<br>
+			  9 rue Charles Fourier <br>
+			  91011 EVRY Cedex, France <br>
+			  Tel: +33 (0) 1 60 76 45 02<br>
+              Fax: +33 (0) 1 60 76 47 80<br>
+              Email: Samir_DOT_Tata_AT_telecom-sudparis_DOT_eu <br>
+              <br>
+          </div>
+		  
+          <div class="section_box" align="justify">
+          <div class="subtitle">About this website</div>
+            This Website describes work and provides sources and documentation regarding M-COAPS, <br> a generic Cloud application provisioning and management API developed by the <a href="http://www-inf.it-sudparis.eu/SIMBAD/">SIMBAD team</a>.<br>
+            <a href="http://validator.w3.org/check?uri=referer"><img src="./COAPS API_files/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" width="88" height="31" vspace="8" border="0"></a> 
+          </div>
+		        
+          
+          
+    </div>
+
+	<div id="templatemo_footer">
+    Copyright © 2016 Institut Mines-Telecom, Telecom SudParis. Computer Sciences department, SIMBAD team.
+    </div>
+        
+</div>
+<div class="templatemo_spacer"></div>
+</div>
+<div align="center"></div>
+
+</body></html>
